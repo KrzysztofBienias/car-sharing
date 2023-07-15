@@ -1,0 +1,40 @@
+package carsharing.models;
+
+public class Customer {
+    private int id;
+    private String name;
+    private int rentedCarId;
+    private Car rentedCar;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getRentedCarId() {
+        return rentedCarId;
+    }
+
+    public void setRentedCarId(int rentedCarId) {
+        this.rentedCarId = rentedCarId;
+    }
+
+    public Car getRentedCar() {
+        return rentedCar;
+    }
+
+    public void setRentedCar(Car rentedCar) {
+        this.rentedCar = rentedCar;
+    }
+}
